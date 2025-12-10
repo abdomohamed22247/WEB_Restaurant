@@ -1,0 +1,20 @@
+.home {
+    /* Background image for the .home section */
+    /* Use the existing image located next to this CSS file */
+    background-image: url("./main.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Fallback background color while image loads or if missing */
+    background-color: #f3f4f6;
+}
+
+/* Optional: full-page background (uncomment to enable) */
+/*
+body {
+  background-image: url('/images/site-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
